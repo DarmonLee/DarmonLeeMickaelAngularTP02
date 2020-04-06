@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+img{
+    width:200px;
+    height:100px;
+}
+
+.container{
+    height:200px;
+    
+}
+
+ul{
+    display: flex;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+li:hover{
+    background-color: grey;
+}
